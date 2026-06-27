@@ -163,6 +163,17 @@ git clone https://github.com/111496583yzy/comfyui-modelscope-qwen-image.git comf
 - 请遵守魔搭社区的使用政策
 - 如遇到错误代码429，表示请求过多，需要等待一段时间后重试
 
+## 安裝依賴
+
+安裝時因為ComfyUI的python和系統的版本不同會出現問題，我用的是笨方法: 是要對comfyui系統產生的python 實例進行添加
+下面範例 "E:\Comfy-Desktop\ComfyUI-Installs\ComfyUI\ComfyUI\.venv\Scripts\python.exe" 處要根據實際狀況修改
+
+- E:\Comfy-Desktop\ComfyUI-Installs\ComfyUI\ComfyUI\.venv\Scripts\python.exe -m pip install --upgrade pip
+- E:\Comfy-Desktop\ComfyUI-Installs\ComfyUI\ComfyUI\.venv\Scripts\python.exe -m pip install openai
+- E:\Comfy-Desktop\ComfyUI-Installs\ComfyUI\ComfyUI\.venv\Scripts\python.exe -m pip install Pillow
+- E:\Comfy-Desktop\ComfyUI-Installs\ComfyUI\ComfyUI\.venv\Scripts\python.exe -m pip install torch torchvision torchaudio
+
+
 ## License
 
 MIT
